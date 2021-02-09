@@ -4,7 +4,8 @@
       <v-col
         cols="12"
       >
-        <h1>お問い合わせ</h1>
+        <h1>王にお話してね</h1>
+        <h2>清聴します</h2>
         <v-form
           v-model="valid"
         >
@@ -138,7 +139,7 @@ export default {
       title: {
         value: null,
         rules: [v => !!v || '必ず入力してください'],
-        label: '件名'
+        label: 'テーマ'
       },
       contact: {
         value: null,
